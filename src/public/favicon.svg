@@ -1,0 +1,79 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="64" height="64" rx="12" fill="#000000"/>
+  
+  <!-- 定义渐变 -->
+  <defs>
+    <linearGradient id="topGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFED4E" />
+      <stop offset="100%" stop-color="#FFD700" />
+    </linearGradient>
+    
+    <linearGradient id="sideGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#D4A500" />
+      <stop offset="100%" stop-color="#B89000" />
+    </linearGradient>
+
+    <radialGradient id="studGrad">
+      <stop offset="0%" stop-color="#FFED4E" />
+      <stop offset="70%" stop-color="#FFD700" />
+      <stop offset="100%" stop-color="#D4A500" />
+    </radialGradient>
+  </defs>
+
+  <!-- 积木主体 - 等轴测视角 -->
+  <g transform="translate(12, 18)">
+    <!-- 左侧面 -->
+    <path
+      d="M 5 14 L 5 26 L 20 32 L 20 20 Z"
+      fill="url(#sideGrad)"
+      opacity="0.8"
+    />
+    
+    <!-- 右侧面 -->
+    <path
+      d="M 20 20 L 20 32 L 35 26 L 35 14 Z"
+      fill="url(#sideGrad)"
+      opacity="0.9"
+    />
+    
+    <!-- 顶面 -->
+    <path
+      d="M 5 14 L 20 8 L 35 14 L 20 20 Z"
+      fill="url(#topGrad)"
+    />
+
+    <!-- 积木凸起 - 2x2 排列 -->
+    <!-- 左上 -->
+    <ellipse cx="14" cy="13" rx="3" ry="1.8" fill="url(#studGrad)"/>
+    <ellipse cx="14" cy="12.5" rx="3" ry="1.8" fill="#FFED4E"/>
+    
+    <!-- 右上 -->
+    <ellipse cx="20" cy="10.5" rx="3" ry="1.8" fill="url(#studGrad)"/>
+    <ellipse cx="20" cy="10" rx="3" ry="1.8" fill="#FFED4E"/>
+    
+    <!-- 左下 -->
+    <ellipse cx="14" cy="17" rx="3" ry="1.8" fill="url(#studGrad)"/>
+    <ellipse cx="14" cy="16.5" rx="3" ry="1.8" fill="#FFED4E"/>
+    
+    <!-- 右下 -->
+    <ellipse cx="20" cy="14.5" rx="3" ry="1.8" fill="url(#studGrad)"/>
+    <ellipse cx="20" cy="14" rx="3" ry="1.8" fill="#FFED4E"/>
+
+    <!-- 边缘高光 -->
+    <path
+      d="M 5 14 L 20 8"
+      stroke="#FFED4E"
+      stroke-width="0.8"
+      opacity="0.5"
+      stroke-linecap="round"
+    />
+    <path
+      d="M 20 8 L 35 14"
+      stroke="#FFED4E"
+      stroke-width="0.8"
+      opacity="0.3"
+      stroke-linecap="round"
+    />
+  </g>
+</svg>

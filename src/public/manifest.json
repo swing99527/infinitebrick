@@ -1,0 +1,29 @@
+{
+  "short_name": "InfiniteBrick",
+  "name": "InfiniteBrick AI - AI-Powered Brick Design Platform",
+  "name_zh": "智积无限 - AI积木生成平台",
+  "description": "Transform ideas into buildable brick models with AI. Design, visualize, and order custom brick creations.",
+  "description_zh": "用AI将创意转化为可搭建的积木模型。设计、可视化并订购定制积木作品。",
+  "icons": [
+    {
+      "src": "favicon.svg",
+      "type": "image/svg+xml",
+      "sizes": "any"
+    },
+    {
+      "src": "logo192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "logo512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#FFD700",
+  "background_color": "#000000",
+  "orientation": "portrait-primary"
+}
