@@ -7,7 +7,7 @@ const partners = [
   { name: 'GoBricks', descriptionEn: 'Premium Brick Supplier', descriptionZh: '优质积木供应商', icon: Package },
   { name: 'SF Express', descriptionEn: 'Global Logistics Partner', descriptionZh: '全球物流合作伙伴', icon: Truck },
   { name: 'TÜV Certified', descriptionEn: 'Safety & Quality', descriptionZh: '安全与质量认证', icon: Shield },
-  { name: 'OpenAI', descriptionEn: 'AI Technology Partner', descriptionZh: 'AI 技术合作伙伴', icon: Sparkles }
+  { name: 'Leading LLM Provider', descriptionEn: 'LLM Technology Partner', descriptionZh: 'LLM 技术合作伙伴', icon: Sparkles }
 ];
 
 export function TrustBadges() {

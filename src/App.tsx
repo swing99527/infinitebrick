@@ -20,7 +20,7 @@ function DefaultHead() {
     const link = document.querySelector("link[rel*='icon']") || document.createElement('link');
     link.setAttribute('type', 'image/svg+xml');
     link.setAttribute('rel', 'icon');
-    link.setAttribute('href', '/public/favicon.svg');
+    link.setAttribute('href', '/favicon.svg');
     if (!document.querySelector("link[rel*='icon']")) {
       document.head.appendChild(link);
     }
@@ -28,7 +28,7 @@ function DefaultHead() {
     // 设置 Apple touch icon
     const appleTouchIcon = document.querySelector("link[rel='apple-touch-icon']") || document.createElement('link');
     appleTouchIcon.setAttribute('rel', 'apple-touch-icon');
-    appleTouchIcon.setAttribute('href', '/public/logo192.png');
+    appleTouchIcon.setAttribute('href', '/logo192.png');
     if (!document.querySelector("link[rel='apple-touch-icon']")) {
       document.head.appendChild(appleTouchIcon);
     }
@@ -36,7 +36,7 @@ function DefaultHead() {
     // 设置 manifest
     const manifest = document.querySelector("link[rel='manifest']") || document.createElement('link');
     manifest.setAttribute('rel', 'manifest');
-    manifest.setAttribute('href', '/public/manifest.json');
+    manifest.setAttribute('href', '/manifest.json');
     if (!document.querySelector("link[rel='manifest']")) {
       document.head.appendChild(manifest);
     }
